@@ -1,0 +1,127 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        height: 300px;
+        padding: 20px;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../img/vegetable_head.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .head {
+        font-size: 40px;
+        font-weight: bold;
+        color: #016032d2;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        font-size: 20px;
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .title {
+        background-color: #ecf4ea;
+        padding: 20px;
+    }
+
+    .search-box button {
+        background-color: lightcoral;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+    }
+
+    .bn {
+        margin: 10px;
+    }
+
+    .bn a {
+        font-size: 18px;
+        color: #148d38;
+        text-decoration: none;
+    }
+
+    .bn a:hover {
+        text-decoration: underline;
+    }
+
+    .img-padding {
+        padding: 20px;
+    }
+
+    .search-box button:hover {
+        background-color: red;
+    }
+
+    footer {
+        background-color: aliceblue;
+        text-align: center;
+        padding: 10px;
+        height: auto;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .social-icons a {
+        color: #333;
+        font-size: 24px;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+
+    .social-icons a:hover {
+        color: #007bff;
+    }
+
+    .pagination .page-link {
+        color: #001f40;
+        border-color: #001f40;
+    }
+
+    .pagination .page-link:hover {
+        background-color: #001f40;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .alert-box {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
